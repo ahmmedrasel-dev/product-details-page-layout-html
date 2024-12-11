@@ -120,6 +120,7 @@
                     class="btn-check"
                     name="bandSize"
                     id="SSize"
+                    value="69"
                     autocomplete="off"
                   />
                   <label class="size-varient-item" for="SSize"
@@ -131,9 +132,10 @@
                     class="btn-check"
                     name="bandSize"
                     id="MSize"
+                    value="79"
                     autocomplete="off"
                   />
-                  <label class="size-varient-item black" for="MSize"
+                  <label class="size-varient-item" for="MSize"
                     ><strong>M</strong> $79</label
                   >
 
@@ -142,9 +144,10 @@
                     class="btn-check"
                     name="bandSize"
                     id="LSize"
+                    value="89"
                     autocomplete="off"
                   />
-                  <label class="size-varient-item black" for="LSize"
+                  <label class="size-varient-item" for="LSize"
                     ><strong>L</strong> $89</label
                   >
 
@@ -153,12 +156,15 @@
                     class="btn-check"
                     name="bandSize"
                     id="XLSize"
+                    value="99"
                     autocomplete="off"
                   />
-                  <label class="size-varient-item black" for="XLSize"
+                  <label class="size-varient-item" for="XLSize"
                     ><strong>XL</strong> $99</label
                   >
                 </div>
+
+                <p>Total Price: <span id="totalPrice">$69</span></p>
 
                 <div class="action-container d-flex">
                   <div class="input-group" style="width: 130px">
@@ -173,7 +179,7 @@
                       type="text"
                       class="form-control text-center"
                       value="1"
-                      min="0"
+                      id="quantity"
                       readonly
                     />
                     <button
