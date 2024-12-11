@@ -1,0 +1,3628 @@
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+    .container {
+        max-width: 1320px !important;
+    }
+
+    .banner_img .img {
+        width: 540px;
+        height: auto;
+    }
+
+    .banner_img .img::after {
+        width: 300px;
+        height: 300px;
+        left: 140px;
+    }
+
+    .banner .banner_text h1,
+    .banner .banner_text h1 span {
+        font-size: 74px;
+    }
+
+    .banner .banner_text p {
+        max-width: 85%;
+    }
+
+    .app_download_img::after {
+        right: 40px;
+        width: 330px;
+        height: 190px;
+    }
+
+    .app_download::before {
+        font-size: 100px;
+        bottom: 110px;
+    }
+
+    .single_blog_img {
+        height: 450px;
+    }
+
+    .single_chef_3_img {
+        height: 310px;
+    }
+
+    .single_branch_text {
+        padding: 20px 25px 25px 25px;
+    }
+
+    .sign_in_form {
+        padding: 240px 100px 120px 75px;
+    }
+
+    .new_recipes_item {
+        height: 300px;
+    }
+
+    .menu_details_banner {
+        height: 380px;
+    }
+
+    .gallery_item {
+        height: 500px;
+    }
+
+    .reservation_form {
+        padding: 40px;
+        margin-left: 10px;
+    }
+
+    .reservation_bg {
+        padding: 35px;
+    }
+
+    .instagran_photo_item {
+        height: 275px;
+    }
+
+    .instagran_photo_item .text a {
+        width: 75px;
+    }
+
+    .banner_2 .banner_img .img {
+        width: 550px;
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    /*================================
+        HOME PAGE START
+    ================================*/
+    .banner .banner_text h1,
+    .banner .banner_text h1 span {
+        font-size: 64px;
+        line-height: initial;
+    }
+
+    .banner .banner_text p {
+        max-width: 85%;
+    }
+
+    .banner_img .img {
+        width: 520px;
+        height: auto;
+    }
+
+    .banner_img .img::after {
+        background-size: contain;
+        width: 290px;
+        height: 290px;
+    }
+
+    .add_banner_large .text,
+    .add_banner_small .text {
+        max-width: 50%;
+    }
+
+    .single_menu_text {
+        padding: 20px;
+    }
+
+    .add_banner_full_text h2 {
+        font-size: 58px;
+    }
+
+    .app_download::before {
+        font-size: 85px;
+        bottom: 42px;
+    }
+
+    .app_download_img::after {
+        right: 20px;
+        width: 360px;
+        height: 200px;
+    }
+
+    .single_chef_img {
+        height: 260px;
+    }
+
+    .testimonial_video {
+        text-align: center;
+    }
+
+    .single_blog_img {
+        height: 390px;
+    }
+
+    .footer_post ul li .text {
+        max-width: 70%;
+    }
+
+    .container {
+        max-width: 1140px !important;
+    }
+
+    /*================================
+        HOME PAGE END
+    ================================*/
+
+    .about_us_story_text h2 {
+        font-size: 38px;
+    }
+
+    .single_chef_3_img {
+        height: 260px;
+    }
+
+    .about_video_text .play_btn {
+        right: -115%;
+    }
+
+    .testimonial_2_img {
+        height: 480px;
+    }
+
+    .testimonial_2_img::before {
+        width: 500px;
+        height: 310px;
+        top: 15px;
+    }
+
+    .testimonial_2_img::after {
+        width: 500px;
+        height: 370px;
+    }
+
+    .about_us_2_img {
+        height: 405px;
+    }
+
+    .why_choose_item h3 {
+        font-size: 18px;
+    }
+
+    .about_video_text h2,
+    .why_choose_text h2,
+    .about_us_2_text h2 {
+        font-size: 38px;
+    }
+
+    /*================================
+        BLOG DETAILS START
+    ================================*/
+    .blog_details_img {
+        height: 355px;
+    }
+
+    .blog_details_text .details_center_img {
+        height: 250px;
+    }
+
+    .single_review .text {
+        width: 86%;
+    }
+
+    .single_review.reply .text {
+        width: 85%;
+    }
+
+    .sidebar_post ul li .text {
+        width: 66%;
+    }
+
+    .sidebar_banner .text {
+        padding: 40px;
+    }
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+
+    .single_branch_img {
+        height: 155px;
+    }
+
+    .single_branch_text {
+        padding: 20px 25px 25px 25px;
+    }
+
+    .cart_list_footer_button form input {
+        max-width: 520px;
+    }
+
+    .cart_list .pro_img {
+        padding-right: 70px !important;
+    }
+
+    .cart_summery {
+        padding: 30px;
+    }
+
+    .chef_dish_img {
+        height: 175px;
+    }
+
+    .contact_info {
+        padding: 20px;
+    }
+
+    .contact_img {
+        margin-right: 25px;
+    }
+
+    .contact_info .text {
+        max-width: 71%;
+    }
+
+    .faq_img {
+        height: 405px;
+    }
+
+    .sign_in_form {
+        padding: 240px 50px 120px 25px;
+    }
+
+    .menu_item_4 .single_menu_2_text {
+        width: 77%;
+    }
+
+    .single_menu_2 .single_menu_2_text {
+        width: 70%;
+    }
+
+    .new_recipes_item {
+        height: 250px;
+    }
+
+    .natural_food .add_banner_small_2 {
+        max-height: 377px;
+    }
+
+    .sidebar_tags ul li a {
+        font-size: 14px;
+        padding: 6px 18px;
+    }
+
+    .sidebar_wizard {
+        padding: 25px;
+    }
+
+    .details_small_img {
+        height: 75px;
+    }
+
+    .menu_details_banner .text {
+        padding: 25px;
+    }
+
+    .menu_details_banner {
+        height: 360px;
+    }
+
+    .menu_det_review_area .single_review .text {
+        width: 84%;
+    }
+
+    .gallery_item {
+        height: 430px;
+    }
+
+    .single_branch_2 {
+        padding: 30px;
+    }
+
+    .service_details_img {
+        height: 370px;
+    }
+
+    .service_category_text a {
+        font-size: 16px;
+    }
+
+    .service_category_img {
+        height: 95px;
+    }
+
+    .service_item {
+        height: 445px;
+    }
+
+    .service_item_overly {
+        height: 42%;
+    }
+
+    /*===============================
+        HOME 2 START
+    ===============================*/
+    .add_banner_medium,
+    .add_banner_small_2,
+    .add_banner_large_2 {
+        padding: 30px;
+    }
+
+    .add_banner_medium .text {
+        width: 85%;
+    }
+
+    .single_chef_2_img {
+        height: 260px;
+    }
+
+    .banner_2 .banner_img .img {
+        width: 480px;
+        height: auto;
+    }
+
+    /*===============================
+        HOME 2 END
+    ===============================*/
+
+
+    /*===============================
+        HOME 3 START
+    ===============================*/
+    .reservation_form {
+        padding: 35px;
+        margin-left: 20px;
+    }
+
+    .about_text h2 {
+        font-size: 36px;
+    }
+
+    .about_text .about_text_footer .text {
+        width: 45%;
+    }
+
+    .about_text .about_text_footer {
+        margin-bottom: 35px;
+    }
+
+    .testimonial_3_img {
+        width: 600px;
+    }
+
+    .single_testimonial_3 h2 {
+        font-size: 36px;
+        max-width: 100%;
+    }
+
+    .instagran_photo_item {
+        height: 235px;
+    }
+
+    .instagran_photo_item .text a {
+        width: 65px;
+    }
+
+    .reservation_bg {
+        padding: 40px;
+    }
+
+    /*===============================
+        HOME 3 END
+    ===============================*/
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    /*================================
+        HOME PAGE START
+    ================================*/
+    .main_menu .navbar-nav .nav-item .nav-link {
+        padding: 0px 10px;
+        font-size: 14px;
+    }
+
+    .banner .banner_text h1,
+    .banner .banner_text h1 span {
+        font-size: 54px;
+        line-height: initial;
+    }
+
+    .banner .banner_text p {
+        max-width: 100%;
+    }
+
+    .banner_img .img {
+        width: auto;
+        height: auto;
+    }
+
+    .banner_img .img::after {
+        background-size: contain;
+        width: 280px;
+        height: 280px;
+        left: 100px;
+    }
+
+    .main_menu .navbar-nav {
+        margin-left: 30px;
+    }
+
+    .add_banner_large .text,
+    .add_banner_small .text {
+        max-width: 60%;
+    }
+
+    .add_banner_full_text h2 {
+        font-size: 58px;
+    }
+
+    .add_banner_full_text .img {
+        right: -140px;
+    }
+
+    .app_download::after {
+        height: 465px;
+    }
+
+    .app_download::before {
+        font-size: 74px;
+        bottom: 2px;
+    }
+
+    .app_download_img::after {
+        top: 80px;
+        right: 30px;
+    }
+
+    .single_blog_img {
+        height: 320px;
+    }
+
+    .footer_post ul li .text {
+        max-width: 65%;
+    }
+
+    .container {
+        max-width: 960px !important;
+    }
+
+    .filter_btn_area li a {
+        padding: 0px 15px;
+    }
+
+    /*================================
+        HOME PAGE END
+    ================================*/
+
+
+    /*================================
+        ABOUT PAGE START
+    ================================*/
+    .breadcrumb_text h1 {
+        font-size: 46px;
+        margin-top: 230px;
+        margin-bottom: 50px;
+    }
+
+    .about_showsase_img_large {
+        height: 307px;
+    }
+
+    .about_showsase_img_small {
+        height: 141px;
+    }
+
+    .reservation_form {
+        margin-left: 0;
+    }
+
+    .chefs_3 .common_btn,
+    .chefs_3 .section_heading h2::after {
+        display: none;
+    }
+
+    .single_chef_3_img {
+        height: 295px;
+    }
+
+    .section_heading h2 {
+        font-size: 40px !important;
+    }
+
+    /*================================
+        ABOUT PAGE END
+    ================================*/
+
+
+    /*================================
+        ABOUT PAGE 2 START
+    ================================*/
+    .about_us_2_img {
+        height: 340px;
+    }
+
+    .why_choose_text h2,
+    .about_us_2_text h2,
+    .about_video_text h2 {
+        font-size: 38px;
+    }
+
+    .testimonial_2_img {
+        height: 405px;
+    }
+
+    .testimonial_2_img::before {
+        width: 420px;
+        height: 260px;
+    }
+
+    .testimonial_2_img::after {
+        width: 400px;
+        height: 295px;
+    }
+
+    .single_testimonial_2 p {
+        font-size: 20px;
+        line-height: initial;
+    }
+
+    .single_blog_2_img {
+        height: 310px;
+    }
+
+    .menu_search_area form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .menu_search_area form button {
+        right: 30px;
+    }
+
+    .why_choose_item {
+        padding: 20px;
+    }
+
+    .why_choose_item h3 {
+        font-size: 18px;
+    }
+
+    .about_video_text .play_btn {
+        right: -90%;
+    }
+
+    /*================================
+        ABOUT PAGE 2 END
+    ================================*/
+
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+    .blog_details_img {
+        height: 300px;
+    }
+
+    .single_review .text {
+        width: 84%;
+    }
+
+    .single_review.reply {
+        margin-left: 40px;
+    }
+
+    .sidebar_post ul li .text {
+        width: 58%;
+    }
+
+    .blog_details_text .details_center_img {
+        height: 210px;
+    }
+
+    .single_review.reply .text {
+        width: 82%;
+    }
+
+    .sidebar_wizard {
+        padding: 25px;
+    }
+
+    .sidebar_banner .text {
+        padding: 30px;
+    }
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+
+    .single_branch_text {
+        padding: 20px 25px 25px 25px;
+    }
+
+    /*================================
+        CART VIEW START
+    ================================*/
+    .cart_list .pro_img {
+        padding-right: 40px !important;
+    }
+
+    .cart_list_footer_button form input {
+        max-width: 335px;
+    }
+
+    .cart_summery {
+        padding: 30px;
+    }
+
+    /*================================
+        CART VIEW END
+    ================================*/
+
+
+    /*================================
+        CHEF DETAILS START
+    ================================*/
+    .chefs_details_img {
+        height: 470px;
+    }
+
+    .chefs_description {
+        margin-left: 0;
+    }
+
+    .chef_dish_img {
+        height: 150px;
+    }
+
+    .chefs_details_skills p {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+    /*================================
+        CHEF DETAILS END
+    ================================*/
+    .contact_img {
+        margin-right: 0;
+    }
+
+    .faq_img {
+        display: none;
+    }
+
+    .sign_in_form {
+        padding: 240px 50px 120px 25px;
+    }
+
+    .sign_in_form ul {
+        gap: 15px;
+    }
+
+    .sign_in_form h2 {
+        font-size: 32px;
+    }
+
+    .menu_item_3_area ul li .img {
+        width: 370px;
+        top: -3px;
+        right: 140px;
+    }
+
+    .menu_item_4 .single_menu_2_text {
+        width: 77%;
+    }
+
+    .single_menu_2 .single_menu_2_text {
+        width: 70%;
+    }
+
+    .new_recipes_item {
+        height: 280px;
+    }
+
+    .menu_det_review_area .single_review .text {
+        width: 81%;
+    }
+
+    .details_small_img {
+        height: 80px;
+    }
+
+    .reservation_page .reservation_img {
+        margin-right: 0;
+    }
+
+    .gallery_item {
+        height: 355px;
+    }
+
+    .service_details_img {
+        height: 310px;
+    }
+
+    .service_category_text a {
+        font-size: 16px;
+    }
+
+    .service_category_img {
+        height: 90px;
+    }
+
+
+    .service_item {
+        height: 370px;
+    }
+
+    .service_item_overly {
+        height: 50%;
+        padding: 0px 20px;
+    }
+
+    .service_item_overly h2 {
+        font-size: 20px;
+    }
+
+    /*===============================
+        HOME 2 START
+    ===============================*/
+    .banner_2 .banner_img .img {
+        width: auto;
+        height: auto;
+    }
+
+    .add_banner_large_2 .text {
+        width: 60%;
+    }
+
+    .add_banner_medium,
+    .add_banner_small_2,
+    .add_banner_large_2 {
+        padding: 25px !important;
+    }
+
+    .add_banner_small_2 .text {
+        width: 65%;
+    }
+
+    .add_banner_medium .text {
+        width: 90%;
+    }
+
+    .add_banner_medium .text h3 {
+        font-size: 30px;
+    }
+
+    .app_download_text_2 {
+        margin: 0;
+    }
+
+    .footer_top_contact {
+        padding: 30px;
+    }
+
+    .footer_2 .footer_info p {
+        max-width: 100%;
+    }
+
+    .footer_post h3,
+    .footer_link h3 {
+        font-size: 18px;
+    }
+
+    .single_blog_2_img {
+        height: 200px;
+    }
+
+    .banner_2 .banner_text h1,
+    .banner_2 .banner_text h1 span {
+        font-size: 42px;
+    }
+
+    /*===============================
+        HOME 2 END
+    ===============================*/
+
+
+    /*===============================
+        HOME 3 START
+    ===============================*/
+    .home_3 .reservation_bg {
+        padding: 35px;
+    }
+
+    .home_3 .reservation_form {
+        padding: 35px;
+    }
+
+    .home_3 .reservation_form h3::after,
+    .home_3 .reservation_form h3::before {
+        width: 50px;
+    }
+
+    .home_3 .about_text h2 {
+        font-size: 30px !important;
+    }
+
+    .home_3 .about_text .about_text_footer {
+        margin-bottom: 35px;
+    }
+
+    .testimonial_3_img {
+        width: 490px;
+    }
+
+    .testimonial_3_area {
+        padding: 35px;
+    }
+
+    .testimonial_3_area {
+        padding: 35px;
+    }
+
+    .single_testimonial_3 h2 {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .single_testimonial_3 p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .instagran_photo_item {
+        height: 245px;
+    }
+
+    .instagran_photo_item .text a {
+        width: 60px;
+    }
+
+    .popup_subscribe_box {
+        max-width: 90%;
+    }
+
+    .popup_subscribe_form {
+        padding: 40px 40px 40px 15px;
+    }
+
+    .popup_subscribe_form h2 {
+        font-size: 26px;
+    }
+
+    /*===============================
+        HOME 3 END
+    ===============================*/
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    /*================================
+        HOME PAGE START
+    ================================*/
+    header .header_right ul li {
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+
+    header .header_right .nice-select {
+        min-width: 65px;
+    }
+
+    header .header_right ul li a,
+    header .header_right .nice-select .current {
+        font-size: 13px;
+    }
+
+    header .header_right ul li a span {
+        width: 12px;
+        margin-top: -4px;
+    }
+
+    .main_menu .container {
+        padding: 19px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 55px;
+        margin-left: 0;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorYellow);
+        margin-top: 18px !important;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .main_menu .menu_right {
+        background: var(--colorWhite);
+        margin-top: -1px;
+        padding: 10px 20px 20px 37px;
+        border-bottom: 1px solid var(--colorYellow);
+    }
+
+    .main_menu .droap_menu {
+        left: 17px;
+    }
+
+    .main_menu .droap_menu {
+        max-height: 250px;
+    }
+
+    .banner {
+        height: auto;
+        padding-top: 215px;
+        padding-bottom: 100px;
+    }
+
+    .banner .banner_text h1,
+    .banner .banner_text h1 span {
+        font-size: 52px;
+        line-height: initial;
+    }
+
+    .banner_img .img {
+        width: 500px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .banner_img .img::after {
+        display: none;
+    }
+
+    .add_banner_large .text,
+    .add_banner_small .text {
+        max-width: 45%;
+        padding: 30px;
+    }
+
+    .add_banner_full_text h2,
+    .section_heading h2 {
+        font-size: 38px !important;
+        line-height: initial;
+    }
+
+    .add_banner_full_text .img {
+        right: -160px;
+    }
+
+    .filter_btn_area li a {
+        padding: 0px 20px;
+        margin: 5px 0px;
+        font-size: 13px;
+    }
+
+    .add_banner_full_text {
+        padding: 0px 15px;
+    }
+
+    .app_download::before {
+        font-size: 58px;
+        bottom: -1px;
+    }
+
+    .app_download_img::after {
+        width: 250px;
+        height: 140px;
+        right: 20px;
+    }
+
+    .app_download::after {
+        height: 440px;
+    }
+
+    .app_download_text h2 {
+        font-size: 32px;
+    }
+
+    .single_testimonial {
+        padding: 30px;
+    }
+
+    .single_blog_img {
+        height: 370px;
+    }
+
+    .footer_link,
+    .footer_post {
+        margin-top: 50px;
+    }
+
+    .footer_post h3,
+    .footer_link h3 {
+        margin-bottom: 17px;
+    }
+
+    .footer_post ul li .text {
+        max-width: 80%;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .single_testimonial .description {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .single_chef_img {
+        height: 335px;
+    }
+
+    .single_menu_img {
+        height: 200px;
+    }
+
+    .app_download_img {
+        width: auto;
+    }
+
+    .app_download_text p {
+        max-width: 100%;
+    }
+
+    .banner .banner_text p {
+        max-width: 90%;
+    }
+
+    .container {
+        max-width: 720px !important;
+    }
+
+    /*================================
+        HOME PAGE END
+    ================================*/
+
+
+    /*================================
+        ABOUT PAGE START
+    ================================*/
+    .breadcrumb_text h1 {
+        font-size: 38px;
+        margin-top: 230px;
+        margin-bottom: 45px;
+    }
+
+    .about_us_story_img_large,
+    .about_us_story_img_small {
+        height: 200px;
+    }
+
+    .about_showsase_img_large {
+        height: 375px;
+    }
+
+    .about_showsase_img_small {
+        height: 175px;
+    }
+
+    .reservation_form {
+        margin-left: 0;
+    }
+
+    .chefs_3 .common_btn {
+        top: 0;
+    }
+
+    .chefs_3 .section_heading h2::after {
+        display: none;
+    }
+
+    .single_chef_3_img {
+        height: 335px;
+    }
+
+    /*================================
+        ABOUT PAGE END
+    ================================*/
+
+
+    /*================================
+        ABOUT PAGE 2 START
+    ================================*/
+    .about_us_2_img {
+        height: 520px;
+        margin-bottom: 25px;
+    }
+
+    .why_choose_text h2,
+    .about_us_2_text h2,
+    .about_video_text h2 {
+        font-size: 38px;
+    }
+
+    .about_video_text .play_btn {
+        right: -215px;
+    }
+
+    .testimonial_2_img {
+        height: 455px;
+    }
+
+    .testimonial_2_img::before {
+        width: 450px;
+        height: 280px;
+        top: 0;
+    }
+
+    .testimonial_2_img::after {
+        width: 400px;
+        height: 295px;
+    }
+
+    .testimonial_2_area::after {
+        top: -28px;
+        left: 25px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+    }
+
+    .single_counter_2_area ul li {
+        width: 50%;
+        margin-bottom: 60px;
+        border: none;
+    }
+
+    .single_counter_2_area ul li:nth-child(3),
+    .single_counter_2_area ul li:nth-child(4) {
+        margin: 0;
+    }
+
+    .single_blog_2_img {
+        height: 230px;
+    }
+
+    .menu_search_area form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .menu_search_area form button {
+        right: 30px;
+    }
+
+    /*================================
+        ABOUT PAGE 2 END
+    ================================*/
+
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+    .blog_details_img {
+        height: 335px;
+    }
+
+    .single_review .text {
+        width: 86%;
+    }
+
+    .single_review.reply {
+        margin-left: 40px;
+    }
+
+    .input_comment_area {
+        margin-bottom: 25px;
+    }
+
+    .sidebar_post ul li .text {
+        width: 73%;
+    }
+
+    .blog_details_text .details_center_img {
+        height: 240px;
+    }
+
+    .single_review.reply .text {
+        width: 85%;
+    }
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+
+    .single_branch_img {
+        height: 200px;
+    }
+
+    /*================================
+        CART VIEW START
+    ================================*/
+    .cart_list .pro_img {
+        padding-right: 40px !important;
+    }
+
+    .cart_list_footer_button form input {
+        max-width: 335px;
+    }
+
+    .cart_summery {
+        padding: 30px;
+    }
+
+    .cart_list_footer_button form input {
+        margin-right: 0;
+    }
+
+    .cart_list_footer_button form button {
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    /*================================
+        CART VIEW END
+    ================================*/
+
+    .checkout h2 {
+        margin-bottom: 20px;
+    }
+
+    .checkout_area {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        CHEF DETAILS START
+    ================================*/
+    .chefs_details_img {
+        height: 335px;
+        margin-bottom: 25px;
+    }
+
+    .chefs_description {
+        margin-left: 0;
+    }
+
+    .chefs_description h2 {
+        font-size: 38px;
+    }
+
+    .chef_dish_img {
+        height: 230px;
+    }
+
+    .chefs_details_skills {
+        margin-top: 25px;
+    }
+
+    .chefs_details_skills p {
+        max-width: 100%;
+    }
+
+    /*================================
+        CHEF DETAILS END
+    ================================*/
+
+
+    /*================================
+        CONTACT END
+    ================================*/
+    .contact_form h2 {
+        font-size: 38px;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+
+    .contact_map {
+        height: 350px;
+    }
+
+    .contact_info .text {
+        max-width: 66%;
+    }
+
+    .contact_info {
+        padding: 20px;
+    }
+
+    /*================================
+        CONTACT END
+    ================================*/
+
+    .dashboard_content {
+        margin-top: 25px;
+    }
+
+    .faq_img,
+    .faq_contact_img {
+        display: none;
+    }
+
+    /*================================
+        SIGN IN START
+    ================================*/
+    .sign_in_img {
+        display: none;
+    }
+
+    .sign_in_form {
+        padding: 240px 50px 120px 50px;
+    }
+
+    .sign_in_form ul {
+        gap: 15px;
+    }
+
+    /*================================
+        SIGN IN END
+    ================================*/
+
+
+    /*================================
+        MENU 1 START
+    ================================*/
+    .colorful-tab-wrapper:before {
+        opacity: 0 !important;
+    }
+
+    .menu_item_3_area ul li .img {
+        display: none;
+    }
+
+    /*================================
+        MENU 1 END
+    ================================*/
+
+    .new_recipes_item {
+        height: 240px;
+    }
+
+    .menu_grid_view .pagination_area {
+        margin-bottom: 60px;
+    }
+
+    /*================================
+        MENU DETAILS START
+    ================================*/
+    .details_small_img {
+        height: 90px;
+    }
+
+    .details_large_img {
+        max-height: 520px;
+    }
+
+    .menu_det_text {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .menu_det_text .share {
+        margin-bottom: 20px;
+    }
+
+    .review_input_area {
+        margin-top: 30px;
+    }
+
+    .menu_det_review_area .single_review .text {
+        width: 84%;
+    }
+
+    /*================================
+        MENU DETAILS END
+    ================================*/
+    .payment_area {
+        margin-bottom: 25px;
+    }
+
+    .reservation_page .reservation_form h2 {
+        top: 25px;
+    }
+
+    .gallery_item {
+        height: 370px;
+    }
+
+    .service_accordion {
+        margin-bottom: 25px;
+    }
+
+    .service_details_img {
+        height: 350px;
+    }
+
+    .service_category_img {
+        height: 125px;
+    }
+
+    .service_item {
+        height: 420px;
+    }
+
+
+    /*===============================
+        HOME 2 START
+    ===============================*/
+    .main_menu_2 .menu_right li .menu_order {
+        margin-left: 0;
+    }
+
+    .main_menu_2 .navbar-nav,
+    .main_menu_2 .menu_right {
+        background: var(--lightBg);
+    }
+
+    .banner_2 .banner_img .img {
+        width: auto;
+        height: auto;
+    }
+
+    .add_banner_large_2 .text {
+        width: 60%;
+    }
+
+    .add_banner_small_2 .text {
+        width: 70%;
+    }
+
+    .add_banner_medium .text {
+        width: 65%;
+    }
+
+    .add_banner_medium .text h3 {
+        font-size: 30px;
+    }
+
+    .add_banner_medium {
+        margin-top: 25px;
+    }
+
+    .app_download_text_2 {
+        margin: 0;
+    }
+
+    .single_chef_2_img {
+        height: 335px;
+    }
+
+    .footer_top_contact {
+        padding: 30px;
+    }
+
+    .footer_top_contact ul li .text {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .footer_2 .footer_info p {
+        max-width: 100%;
+    }
+
+    /*===============================
+        HOME 2 END
+    ===============================*/
+
+
+    /*===============================
+        HOME 3 START
+    ===============================*/
+    .main_menu_3 .menu_right li .menu_order {
+        margin-left: 0;
+    }
+
+    .main_menu_3 .navbar-nav .nav-item .nav-link {
+        color: var(--colorBlack);
+    }
+
+    .main_menu_3 .navbar-nav .nav-item:hover .nav-link,
+    .main_menu_3 .navbar-nav .nav-item .nav-link.active {
+        color: var(--colorPrimary);
+    }
+
+    .main_menu_3 .menu_right li .menu_order:hover {
+        background: var(--colorPrimary);
+    }
+
+    .banner_3 {
+        padding: 0;
+    }
+
+    .banner_3_overlay {
+        padding-top: 220px;
+        padding-bottom: 120px;
+    }
+
+    .about_img {
+        max-height: 400px;
+        margin-bottom: 25px;
+    }
+
+    .testimonial_3_img {
+        width: 370px;
+    }
+
+    .testimonial_3_area {
+        padding: 25px;
+    }
+
+    .single_testimonial_3 h2 {
+        font-size: 24px;
+        max-width: 100%;
+    }
+
+    .single_testimonial_3 p {
+        font-size: 16px;
+        line-height: initial;
+    }
+
+    .instagran_photo_item {
+        height: 255px;
+    }
+
+    .footer_3_text .footer_3_logo {
+        display: none;
+    }
+
+    .single_testimonial_3 .rating {
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .popup_subscribe_box {
+        max-width: 95%;
+    }
+
+    .popup_subscribe_form {
+        padding: 30px 30px 30px 5px;
+    }
+
+    .popup_subscribe_form h2 {
+        font-size: 22px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 12px;
+    }
+
+    .footer_top_contact ul li .icon {
+        margin-right: 0;
+    }
+
+    .rtl_button {
+        display: none;
+    }
+
+    /*===============================
+        HOME 3 END
+    ===============================*/
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    /*================================
+        HOME PAGE START
+    ================================*/
+    header .header_right ul li a span {
+        width: 12px;
+        margin-top: -4px;
+    }
+
+    header .header_right ul {
+        justify-content: center;
+    }
+
+    .main_menu .container {
+        padding: 19px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 55px;
+        margin-left: 0;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorYellow);
+        margin-top: 18px !important;
+        padding-top: 10px;
+        padding-left: 12px;
+    }
+
+    .main_menu .menu_right {
+        background: var(--colorWhite);
+        margin-top: -1px;
+        padding: 10px 20px 20px 30px;
+        border-bottom: 1px solid var(--colorYellow);
+    }
+
+    .main_menu .droap_menu {
+        left: 17px;
+    }
+
+    .main_menu .droap_menu {
+        max-height: 250px;
+    }
+
+    .banner {
+        height: auto;
+        padding-top: 215px;
+        padding-bottom: 100px;
+    }
+
+    .banner .banner_text h1,
+    .banner .banner_text h1 span {
+        font-size: 46px;
+        line-height: initial;
+    }
+
+    .banner_img .img {
+        width: 460px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .banner_img .img::after {
+        display: none;
+    }
+
+    .banner .banner_text p {
+        max-width: 100%;
+    }
+
+    .category .section_heading h2 {
+        font-size: 22px;
+    }
+
+    .category .section_heading h2::after {
+        top: -4px;
+    }
+
+    .add_banner_large .text,
+    .add_banner_small .text {
+        max-width: 60%;
+        padding: 30px;
+    }
+
+    .add_banner_full_text h2,
+    .section_heading h2 {
+        font-size: 32px !important;
+        line-height: initial;
+    }
+
+    .filter_btn_area li a {
+        padding: 0px 20px;
+        margin: 5px 0px;
+    }
+
+    .colorful-tab-content.active {
+        transition-delay: 0s;
+    }
+
+    .add_banner_full_text {
+        padding: 0px 15px;
+    }
+
+    .app_download::before {
+        display: none;
+    }
+
+    .app_download_img::after {
+        width: 250px;
+        height: 140px;
+    }
+
+    .app_download::after {
+        height: 100%;
+    }
+
+    .app_download_text {
+        margin-bottom: 100px;
+        margin-top: 60px;
+    }
+
+    .app_download_text h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .single_testimonial {
+        padding: 30px;
+    }
+
+    .single_testimonial .description {
+        font-size: 15px;
+        line-height: initial;
+    }
+
+    .testimonial_video {
+        position: absolute;
+        top: -90px;
+        right: 0;
+    }
+
+    .single_blog_img {
+        height: 270px;
+    }
+
+    .footer_link,
+    .footer_post {
+        margin-top: 50px;
+    }
+
+    .footer_post h3,
+    .footer_link h3 {
+        margin-bottom: 17px;
+    }
+
+    .footer_post ul li .text {
+        max-width: 80%;
+    }
+
+    .footer_subscribe h2 {
+        margin-bottom: 15px;
+    }
+
+    .footer_subscribe {
+        padding: 25px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .single_chef_text::after {
+        right: 15px;
+    }
+
+    .single_menu_img {
+        height: auto;
+    }
+
+    .single_chef_img {
+        height: 240px;
+    }
+
+    .single_menu_img {
+        height: 145px;
+    }
+
+    .single_menu_text {
+        padding: 17px;
+    }
+
+    .app_download_img {
+        width: 400px;
+    }
+
+    .footer_subscribe form {
+        width: 100%;
+    }
+
+    .add_banner_full_text .img {
+        display: none;
+    }
+
+    .container-sm {
+        max-width: 540px !important;
+    }
+
+    /*================================
+        HOME PAGE END
+    ================================*/
+
+
+    /*================================
+        ABOUT PAGE 1 START
+    ================================*/
+    .breadcrumb_text h1 {
+        font-size: 28px;
+        margin-top: 200px;
+        margin-bottom: 35px;
+    }
+
+    .breadcrumb_text ul li a {
+        font-size: 14px;
+    }
+
+    .breadcrumb_text ul {
+        padding: 10px 20px;
+    }
+
+    .about_us_story_text h2 {
+        font-size: 32px;
+        line-height: initial;
+    }
+
+    .about_us_story_img_large,
+    .about_us_story_img_small {
+        height: 200px;
+    }
+
+    .about_showsase_img_large {
+        height: 280px;
+    }
+
+    .about_showsase_img_small {
+        height: 127px;
+    }
+
+    .reservation_form {
+        margin-left: 0;
+    }
+
+    .chefs_3 .common_btn,
+    .chefs_3 .section_heading h2::after {
+        display: none;
+    }
+
+    .single_chef_3_img {
+        height: 245px;
+    }
+
+    .reservation_img {
+        height: 290px;
+    }
+
+    /*================================
+        ABOUT PAGE 1 END
+    ================================*/
+
+
+    /*================================
+        ABOUT PAGE 2 START
+    ================================*/
+
+    .about_us_2_img {
+        height: 385px;
+        margin-bottom: 25px;
+    }
+
+    .why_choose_text h2,
+    .about_us_2_text h2,
+    .about_video_text h2 {
+        font-size: 32px;
+    }
+
+    .about_video_text .play_btn {
+        top: 100%;
+        right: 25px;
+    }
+
+    .testimonial_2_img {
+        height: 455px;
+    }
+
+    .testimonial_2_img::before {
+        width: 450px;
+        height: 280px;
+        top: 0;
+    }
+
+    .testimonial_2_img::after {
+        width: 400px;
+        height: 295px;
+    }
+
+    .single_testimonial_2 {
+        padding: 25px;
+    }
+
+    .single_testimonial_2 p {
+        font-size: 18px;
+        line-height: initial;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .testimonial_2_area {
+        padding-bottom: 65px;
+    }
+
+    .testimonial_2 .nextArrow,
+    .testimonial_2 .prevArrow {
+        left: 93px;
+    }
+
+    .testimonial_2 .prevArrow {
+        left: 37px;
+    }
+
+    .testimonial_2_area::after {
+        top: -28px;
+        left: 25px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+    }
+
+    .single_counter_2_area ul li {
+        width: 50%;
+        margin-bottom: 60px;
+        border: none;
+    }
+
+    .single_counter_2_area ul li:nth-child(3),
+    .single_counter_2_area ul li:nth-child(4) {
+        margin: 0;
+    }
+
+    .single_blog_2_img {
+        height: 350px;
+    }
+
+    .single_blog_2_text {
+        padding: 25px;
+    }
+
+    .menu_search_area form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .menu_search_area form button {
+        right: 30px;
+    }
+
+    .container {
+        max-width: 540px !important;
+    }
+
+    /*================================
+        ABOUT PAGE 2 END
+    ================================*/
+
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+    .blog_details_img {
+        height: 250px;
+    }
+
+    .blog_details_header .right_info {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .blog_details_text h1,
+    .blog_details_text h2,
+    .blog_details_text h3,
+    .blog_details_text h4,
+    .blog_details_text h5,
+    .blog_details_text h6 {
+        font-size: 32px !important;
+    }
+
+    .blog_details_text .quot_text h5 {
+        font-size: 18px !important;
+    }
+
+    .details_tags_share ul li a {
+        font-size: 14px;
+        padding: 4px 15px;
+    }
+
+    .single_review .text {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+
+    .single_review.reply {
+        margin-left: 40px;
+    }
+
+    .input_comment_area {
+        margin-bottom: 25px;
+    }
+
+    .sidebar_post ul li .text {
+        width: 77%;
+    }
+
+    .blog_details_text .details_center_img {
+        height: 175px;
+    }
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+
+
+    /*================================
+        BRANCH STARTED
+    ================================*/
+    .single_branch_img {
+        height: 150px;
+    }
+
+    .branch_popup_img {
+        height: auto;
+    }
+
+    .single_branch_text {
+        padding: 20px 25px 25px 25px;
+    }
+
+    /*================================
+        BRANCH END
+    ================================*/
+
+
+    /*================================
+        CART VIEW START
+    ================================*/
+    .cart_list .pro_img {
+        padding-right: 40px !important;
+    }
+
+    .cart_list_footer_button form input {
+        max-width: 335px;
+    }
+
+    .cart_summery {
+        margin-top: 25px;
+    }
+
+    /*================================
+        CART VIEW END
+    ================================*/
+
+    .checkout h2 {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+
+    .checkout_area {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        CHEF DETAILS START
+    ================================*/
+    .chefs_details_img {
+        height: 515px;
+        margin-bottom: 25px;
+    }
+
+    .chefs_description {
+        margin-left: 0;
+    }
+
+    .chefs_description h2 {
+        font-size: 38px;
+    }
+
+    .chef_dish_img {
+        height: 170px;
+    }
+
+    .chefs_details_skills {
+        margin-top: 25px;
+    }
+
+    .chefs_details_skills p {
+        max-width: 100%;
+    }
+
+    /*================================
+        CHEF DETAILS END
+    ================================*/
+
+
+    /*================================
+        CONTACT END
+    ================================*/
+    .contact_form h2 {
+        font-size: 38px;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+
+    .contact_map {
+        height: 300px;
+    }
+
+    /*================================
+        CONTACT END
+    ================================*/
+
+    /*================================
+        DASHBOARD START
+    ================================*/
+    .dashboard_content {
+        margin-top: 25px;
+    }
+
+    .dashboard_content .dashboard_title {
+        font-size: 22px;
+    }
+
+    .dashboard_invoice_header .text {
+        width: 100%;
+        margin: 30px;
+    }
+
+    .dashboard_invoice_header {
+        padding: 0px;
+    }
+
+    /*================================
+        DASHBOARD END
+    ================================*/
+
+    .error_text .error_img {
+        height: auto;
+    }
+
+    .error_text p {
+        width: 100%;
+    }
+
+    .faq_img {
+        display: none;
+    }
+
+    .faq_accordion .accordion-button {
+        font-size: 16px;
+    }
+
+    /*================================
+        SIGN IN START
+    ================================*/
+    .sign_in_img {
+        display: none;
+    }
+
+    .sign_in_form {
+        padding: 220px 50px 120px 50px;
+    }
+
+    .sign_in_form ul {
+        gap: 15px;
+    }
+
+    /*================================
+        SIGN IN END
+    ================================*/
+
+    /*================================
+        MENU 1 START
+    ================================*/
+    .menu_item_3_area ul li .img {
+        display: none;
+    }
+
+    .menu_item_3_area ul li p span {
+        display: block;
+        width: 100%;
+        border-right: 0;
+        margin-right: 0;
+        height: auto;
+        line-height: initial;
+        margin-bottom: 10px;
+    }
+
+    .popular_food_item .img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .single_menu_2 {
+        margin: 25px 10px 0px 10px;
+    }
+
+    .menu_item_4 .prevArrow,
+    .menu_item_4 .nextArrow {
+        bottom: -100px;
+    }
+
+    .single_menu_2 .single_menu_2_text {
+        width: 70%;
+    }
+
+    .colorful-tab-wrapper:before {
+        opacity: 0 !important;
+    }
+
+    /*================================
+        MENU 1 END
+    ================================*/
+
+    .new_recipes_item {
+        height: 270px;
+    }
+
+    .lunch_menu .lunch_menu_slider {
+        padding: 0;
+    }
+
+    .natural_food .add_banner_small_2 {
+        height: 335px;
+    }
+
+    /*================================
+        MENU DETAILS START
+    ================================*/
+    .details_small_img {
+        height: 100px;
+    }
+
+    .details_large_img {
+        max-height: 520px;
+    }
+
+    .menu_det_text {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .menu_det_text .share {
+        margin-bottom: 20px;
+    }
+
+    .menu_det_content_area .tab-content {
+        padding: 25px;
+    }
+
+    .review_input_area {
+        margin-top: 30px;
+    }
+
+    /*================================
+        MENU DETAILS END
+    ================================*/
+    .single_payment {
+        max-height: 100%;
+    }
+
+    .privacy_policy_text {
+        padding: 0px 40px 40px 40px;
+    }
+
+    .reservation_page .reservation_img {
+        margin-right: 0;
+        height: 510px;
+    }
+
+    .reservation_page .reservation_form h2 {
+        font-size: 38px;
+        top: 25px;
+    }
+
+    .gallery_item {
+        height: 420px;
+    }
+
+    .single_branch_2 {
+        padding: 25px;
+    }
+
+    .service_details_img {
+        height: 260px;
+    }
+
+    .service_details_text h2,
+    .service_accordion h3 {
+        font-size: 32px;
+    }
+
+    .service_quot p {
+        font-size: 16px;
+    }
+
+    .faq_accordion .accordion-item {
+        padding: 20px;
+    }
+
+    .service_accordion {
+        margin-bottom: 25px;
+    }
+
+    .service_category_img {
+        height: 145px;
+    }
+
+    .service_item {
+        height: auto;
+    }
+
+    .service_item_overly {
+        width: 90%;
+        height: 45%;
+        padding: 0px 15px;
+    }
+
+    .service_item a {
+        font-size: 12px;
+    }
+
+    .service_item_overly h2 {
+        font-size: 16px;
+    }
+
+    .service_item:hover a {
+        margin-top: 20px;
+    }
+
+    /*===============================
+        HOME 2 START
+    ===============================*/
+    .main_menu_2 .menu_right li .menu_order {
+        margin-left: 0;
+    }
+
+    .main_menu_2 .navbar-nav,
+    .main_menu_2 .menu_right {
+        background: var(--lightBg);
+    }
+
+    .banner_2 .banner_img .img {
+        width: 450px;
+        height: auto;
+    }
+
+    .add_banner_large_2 .text {
+        width: 60%;
+    }
+
+    .add_banner_small_2 .text {
+        width: 45%;
+    }
+
+    .add_banner_medium .text {
+        width: 65%;
+    }
+
+    .add_banner_medium .text h3 {
+        font-size: 30px;
+    }
+
+    .add_banner_medium {
+        margin-top: 25px;
+    }
+
+    .app_download_text_2 {
+        margin: 0;
+    }
+
+    .single_chef_2_img {
+        height: 245px;
+    }
+
+    .footer_top_contact {
+        padding: 30px;
+    }
+
+    .footer_top_contact ul li {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid rgba(8, 5, 33, 0.10);
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer_2 .footer_info p {
+        max-width: 100%;
+    }
+
+    /*===============================
+        HOME 2 END
+    ===============================*/
+
+
+    /*===============================
+        HOME 3 START
+    ===============================*/
+    .main_menu_3 .menu_right li .menu_order {
+        margin-left: 0;
+    }
+
+    .main_menu_3 .navbar-nav .nav-item .nav-link {
+        color: var(--colorBlack);
+    }
+
+    .main_menu_3 .navbar-nav .nav-item:hover .nav-link,
+    .main_menu_3 .navbar-nav .nav-item .nav-link.active {
+        color: var(--colorPrimary);
+    }
+
+    .main_menu_3 .menu_right li .menu_order:hover {
+        background: var(--colorPrimary);
+    }
+
+    .banner_3 {
+        padding: 0;
+    }
+
+    .banner_3_overlay {
+        padding-top: 220px;
+        padding-bottom: 120px;
+    }
+
+    .reservation_bg {
+        padding: 30px;
+    }
+
+    .about_img {
+        max-height: 250px;
+        margin-bottom: 25px;
+    }
+
+    .testimonial_3_img {
+        width: auto;
+    }
+
+    .testimonial_3_area {
+        padding: 40px;
+    }
+
+    .single_testimonial_3 h2 {
+        font-size: 38px;
+        max-width: 100%;
+    }
+
+    .instagran_photo_item {
+        height: 290px;
+    }
+
+    .footer_3_text .footer_3_logo {
+        display: none;
+    }
+
+    .footer_3_text p {
+        margin-bottom: 25px;
+    }
+
+    .sponsor ul li {
+        width: 60px;
+        height: 60px;
+    }
+
+    .sponsor ul {
+        gap: 70px;
+    }
+
+    .popular_food_item .title {
+        font-size: 22px;
+    }
+
+
+    .popup_subscribe_box {
+        max-width: 90%;
+    }
+
+    .popup_subscribe_img {
+        max-height: 360px;
+    }
+
+    .popup_subscribe_form {
+        padding: 60px;
+    }
+
+    .popup_subscribe_form h2 {
+        font-size: 26px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 12px;
+    }
+
+    .rtl_button {
+        display: none;
+    }
+
+    /*===============================
+        HOME 3 END
+    ===============================*/
+}
+
+@media (max-width: 575.99px) {
+
+    /*================================
+        HOME PAGE START
+    ================================*/
+    /* header start */
+    header .header_right ul li {
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+
+    header .header_right .nice-select {
+        min-width: 65px;
+    }
+
+    header .header_right ul li a,
+    header .header_right .nice-select .current {
+        font-size: 13px;
+    }
+
+    header .header_right ul li a span {
+        width: 12px;
+        margin-top: -4px;
+    }
+
+    header .header_right ul {
+        justify-content: center;
+    }
+
+    .main_menu .container {
+        padding: 19px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 55px;
+        margin-left: 0;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorYellow);
+        margin-top: 18px !important;
+        padding-top: 10px;
+    }
+
+    .main_menu .menu_right {
+        background: var(--colorWhite);
+        margin-top: -1px;
+        padding: 10px 20px 20px 17px;
+        border-bottom: 1px solid var(--colorYellow);
+    }
+
+    .main_menu .droap_menu {
+        left: 17px;
+    }
+
+    .main_menu .droap_menu {
+        max-height: 250px;
+    }
+
+    .banner {
+        height: auto;
+        padding-top: 215px;
+        padding-bottom: 100px;
+    }
+
+    .banner .banner_text h1,
+    .banner .banner_text h1 span {
+        font-size: 46px;
+        line-height: initial;
+    }
+
+    .banner_img .img {
+        width: auto;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .banner_img .img::after {
+        display: none;
+    }
+
+    .banner .banner_text p {
+        max-width: 100%;
+    }
+
+    .banner .banner_text form {
+        background: none;
+        box-shadow: none;
+        padding-right: 0;
+    }
+
+    .banner .banner_text .banner_btn_area {
+        position: initial;
+        justify-content: center;
+    }
+
+    .banner .banner_text form input {
+        background: var(--colorWhite);
+        margin-bottom: 10px;
+    }
+
+    .category .section_heading h2 {
+        font-size: 22px;
+    }
+
+    .category .section_heading h2::after {
+        top: -4px;
+    }
+
+    .add_banner_large,
+    .add_banner_small {
+        height: auto;
+    }
+
+    .add_banner_large .text,
+    .add_banner_small .text {
+        max-width: 100%;
+        padding: 30px;
+    }
+
+    .add_banner_full_text h2,
+    .section_heading h2 {
+        font-size: 32px !important;
+        line-height: initial;
+    }
+
+    .filter_btn_area li a {
+        padding: 0px 20px;
+        margin: 5px 0px;
+    }
+
+    .colorful-tab-content.active {
+        transition-delay: 0s;
+    }
+
+    .add_banner_full_text {
+        padding: 0px 15px;
+    }
+
+    .app_download::before {
+        display: none;
+    }
+
+    .app_download_img::after {
+        width: 250px;
+        height: 140px;
+    }
+
+    .app_download::after {
+        height: 100%;
+    }
+
+    .app_download_text {
+        margin-bottom: 100px;
+        margin-top: 60px;
+    }
+
+    .app_download_text h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .single_testimonial {
+        padding: 30px;
+    }
+
+    .single_testimonial .description {
+        font-size: 15px;
+        line-height: initial;
+    }
+
+    .testimonial_video {
+        display: none;
+    }
+
+    .single_blog_img {
+        height: auto;
+    }
+
+    .footer_link,
+    .footer_post {
+        margin-top: 50px;
+    }
+
+    .footer_post h3,
+    .footer_link h3 {
+        margin-bottom: 17px;
+    }
+
+    .footer_post ul li .text {
+        max-width: 65%;
+    }
+
+    .footer_subscribe h2 {
+        margin-bottom: 15px;
+    }
+
+    .footer_subscribe form button {
+        position: initial;
+        width: 100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding: 10px;
+    }
+
+    .footer_subscribe form {
+        padding: 0px 15px 15px 15px;
+    }
+
+    .footer_subscribe form input {
+        border-bottom: 1px solid #5454548c;
+        border-radius: 0;
+        margin-bottom: 15px;
+    }
+
+    .footer_subscribe {
+        padding: 25px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .single_menu_img {
+        height: auto;
+    }
+
+    .single_chef_img {
+        height: auto;
+    }
+
+    .footer_subscribe form {
+        width: 100%;
+    }
+
+    .cart_popup_img {
+        height: auto;
+    }
+
+    .details_size .form-check label,
+    .details_extra_item .form-check label {
+        max-width: 70%;
+    }
+
+    .add_banner_full_text .img {
+        display: none;
+    }
+
+    .single_menu_text {
+        padding: 25px;
+    }
+
+    /*================================
+        HOME PAGE END
+    ================================*/
+
+
+    /*================================
+        ABOUT PAGE 1 START
+    ================================*/
+    .breadcrumb_text h1 {
+        font-size: 24px;
+        margin-top: 200px;
+        margin-bottom: 35px;
+    }
+
+    .breadcrumb_text ul li a {
+        font-size: 14px;
+    }
+
+    .breadcrumb_text ul {
+        padding: 10px 20px;
+    }
+
+    .about_us_story_text h2 {
+        font-size: 32px;
+        line-height: initial;
+    }
+
+    .about_us_story_img_large,
+    .about_us_story_img_small {
+        height: auto;
+    }
+
+    .about_showsase_img_large {
+        height: auto;
+    }
+
+    .about_showsase_img_small {
+        height: auto;
+    }
+
+    .reservation_form {
+        padding: 30px;
+        margin-left: 0;
+    }
+
+    .reservation_form h3::after,
+    .reservation_form h3::before {
+        width: 35px;
+    }
+
+    .chefs_3 .common_btn,
+    .chefs_3 .section_heading h2::after {
+        display: none;
+    }
+
+    .single_chef_3_img {
+        height: auto;
+    }
+
+    /*================================
+        ABOUT PAGE 1 END
+    ================================*/
+
+
+    /*================================
+        ABOUT PAGE 2 START
+    ================================*/
+    .about_us_2_img {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .why_choose_text h2,
+    .about_us_2_text h2,
+    .about_video_text h2 {
+        font-size: 32px;
+    }
+
+    .about_us_2_text ul li {
+        width: 100%;
+    }
+
+    .about_video_text .play_btn {
+        display: none;
+    }
+
+    .testimonial_2_img {
+        height: auto;
+    }
+
+    .testimonial_2_img::before {
+        width: 250px;
+        height: 156px;
+        top: 0;
+    }
+
+    .testimonial_2_img::after {
+        width: 270px;
+        height: 198px;
+    }
+
+    .single_testimonial_2 {
+        padding: 25px;
+    }
+
+    .single_testimonial_2 p {
+        font-size: 18px;
+        line-height: initial;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .testimonial_2_area {
+        padding-bottom: 65px;
+    }
+
+    .testimonial_2 .nextArrow,
+    .testimonial_2 .prevArrow {
+        left: 93px;
+    }
+
+    .testimonial_2 .prevArrow {
+        left: 37px;
+    }
+
+    .testimonial_2_area::after {
+        top: -28px;
+        left: 25px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+    }
+
+    .single_counter_2_area ul li {
+        width: 100%;
+        margin-bottom: 60px;
+        border: none !important;
+    }
+
+    .single_counter_2_area ul li:last-child {
+        margin: 0;
+    }
+
+    .single_blog_2_img {
+        height: auto;
+    }
+
+    .single_blog_2_text {
+        padding: 25px;
+    }
+
+    .menu_search_area form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .menu_search_area form button {
+        position: static;
+        transform: translate(0);
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    /*================================
+        ABOUT PAGE 2 END
+    ================================*/
+
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+    .blog_details_img {
+        height: auto;
+    }
+
+    .blog_details_header .right_info {
+        margin-top: 10px;
+    }
+
+    .blog_details_text h1,
+    .blog_details_text h2,
+    .blog_details_text h3,
+    .blog_details_text h4,
+    .blog_details_text h5,
+    .blog_details_text h6 {
+        font-size: 32px !important;
+    }
+
+    .blog_details_text .quot_text {
+        padding: 20px 25px;
+    }
+
+    .blog_details_text .quot_text h5 {
+        font-size: 16px !important;
+    }
+
+    .blog_details_text .details_center_img {
+        height: auto;
+        margin: 12px 0px;
+    }
+
+    .details_tags_share ul li:first-child {
+        width: 100%;
+    }
+
+    .details_tags_share ul li a {
+        font-size: 14px;
+        padding: 4px 15px;
+    }
+
+    .details_tags_share .details_share {
+        margin-top: 10px;
+    }
+
+    .single_review .text {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+
+    .single_review.reply {
+        margin-left: 20px;
+    }
+
+    .single_review .text h4 span {
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .input_comment_area {
+        margin-bottom: 25px;
+    }
+
+    .sidebar_wizard {
+        padding: 25px;
+    }
+
+    .sidebar_post ul li .text {
+        width: 58%;
+    }
+
+    .sidebar_banner .text {
+        padding: 25px;
+    }
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+
+
+    /*================================
+        BRANCH STARTED
+    ================================*/
+    .single_branch_img {
+        height: auto;
+    }
+
+    .branch_popup_img {
+        height: auto;
+    }
+
+    .cart_popup .modal .modal-body {
+        padding: 20px;
+    }
+
+    .branch_popup_text .title {
+        font-size: 22px;
+    }
+
+    .branch_popup_map {
+        height: 200px;
+    }
+
+    /*================================
+        BRANCH END
+    ================================*/
+
+
+    /*================================
+        CART VIEW START
+    ================================*/
+    .cart_list .pro_img {
+        padding-right: 40px !important;
+    }
+
+    .cart_list .pro_name {
+        min-width: 190px;
+    }
+
+    .cart_list .pro_tk {
+        min-width: 100px;
+    }
+
+    .cart_list_footer_button form input {
+        margin-right: 0;
+    }
+
+    .cart_list_footer_button form button {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+
+    .cart_summery {
+        padding: 30px;
+    }
+
+    /*================================
+        CART VIEW END
+    ================================*/
+
+    .checkout h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .checkout_area {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        CHEF DETAILS START
+    ================================*/
+    .chefs_details_img {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .chefs_description {
+        margin-left: 0;
+    }
+
+    .chefs_description h2 {
+        font-size: 32px;
+    }
+
+    .chef_details_text h2 {
+        font-size: 20px;
+    }
+
+    .chefs_description h3 {
+        font-size: 18px;
+    }
+
+    .chef_dish_img {
+        height: auto;
+    }
+
+    .chefs_details_skills {
+        margin-top: 25px;
+    }
+
+    .chefs_details_skills p {
+        max-width: 100%;
+    }
+
+    /*================================
+        CHEF DETAILS END
+    ================================*/
+
+
+    /*================================
+        CONTACT END
+    ================================*/
+    .contact_form h2 {
+        font-size: 32px;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+
+    .contact_info .text {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contact_map {
+        height: 250px;
+    }
+
+    /*================================
+        CONTACT END
+    ================================*/
+
+
+    /*================================
+        DASHBOARD START
+    ================================*/
+    .dashboard_content {
+        margin-top: 25px;
+    }
+
+    .dashboard_content .dashboard_title {
+        font-size: 22px;
+    }
+
+    .dashboard_profile_info_list ul li span {
+        display: block;
+        width: 100%;
+    }
+
+    .dashboard_new_address .form-check,
+    .dashboard_edit_address .form-check {
+        margin-right: 5px;
+    }
+
+    .dashboard_new_address,
+    .dashboard_edit_address {
+        padding: 25px;
+    }
+
+    .dashboard_invoice_logo_area .invoice_logo {
+        width: 70px;
+    }
+
+    .dashboard_invoice_header .text {
+        width: 100%;
+        margin: 30px;
+    }
+
+    .dashboard_invoice_header {
+        padding: 0px;
+    }
+
+    .dashboard_invoice_footer a {
+        position: static;
+        margin-top: 20px;
+    }
+
+    /*================================
+        DASHBOARD END
+    ================================*/
+
+    .error_text .error_img {
+        height: auto;
+    }
+
+    .error_text h2 {
+        font-size: 32px;
+    }
+
+    .error_text p {
+        width: 100%;
+    }
+
+    .faq_img {
+        display: none;
+    }
+
+    .faq_accordion .accordion-button {
+        font-size: 16px;
+    }
+
+    /*================================
+        SIGN IN START
+    ================================*/
+    .sign_in_img {
+        display: none;
+    }
+
+    .sign_in_form {
+        padding: 220px 30px 120px 30px;
+    }
+
+    .sign_in_form h2 {
+        font-size: 30px;
+    }
+
+    .sign_in_form .description {
+        max-width: 100%;
+    }
+
+    .sign_in_form ul {
+        gap: 10px;
+    }
+
+    /*================================
+        SIGN IN END
+    ================================*/
+
+
+    /*================================
+        MENU 1 START
+    ================================*/
+    .menu_item_3_area ul li .img {
+        display: none;
+    }
+
+    .menu_item_3_area ul li p span {
+        display: block;
+        width: 100%;
+        border-right: 0;
+        margin-right: 0;
+        height: auto;
+        line-height: initial;
+        margin-bottom: 10px;
+    }
+
+    .menu_item_4 .single_menu_2_img {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+
+    .menu_item_4 .single_menu_2_text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .single_menu_2 {
+        margin: 25px 10px 0px 10px;
+    }
+
+    .menu_item_4 .prevArrow,
+    .menu_item_4 .nextArrow {
+        bottom: -100px;
+    }
+
+    .single_menu_2 .single_menu_2_text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .colorful-tab-wrapper:before {
+        opacity: 0 !important;
+    }
+
+    /*================================
+        MENU 1 END
+    ================================*/
+
+    .lunch_menu .lunch_menu_slider {
+        padding: 0;
+    }
+
+    .new_recipes_item {
+        height: auto;
+    }
+
+    .natural_food .add_banner_small_2 {
+        max-height: 100%;
+        height: auto;
+    }
+
+    /*================================
+        MENU DETAILS START
+    ================================*/
+    .details_small_img {
+        height: 60px;
+    }
+
+    .menu_det_text {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .menu_det_text .share {
+        margin-bottom: 20px;
+    }
+
+    .menu_det_content_area .tab-content {
+        padding: 25px;
+    }
+
+    .review_input_area {
+        margin-top: 30px;
+    }
+
+    .menu_det_text .details_title {
+        font-size: 32px;
+    }
+
+    /*================================
+        MENU DETAILS END
+    ================================*/
+
+    .payment_area {
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+
+    .single_payment {
+        max-height: 100%;
+    }
+
+    .privacy_policy_text {
+        padding: 00px 30px 30px 30px;
+    }
+
+    .reservation_page .reservation_img {
+        margin-right: 0;
+        height: auto;
+    }
+
+    .reservation_page .reservation_form h2 {
+        font-size: 32px;
+        top: 25px;
+    }
+
+    .gallery_item {
+        height: auto;
+    }
+
+    .single_branch_2 {
+        padding: 30px;
+    }
+
+    .service_details_img {
+        height: auto;
+    }
+
+    .service_details_text h2,
+    .service_accordion h3 {
+        font-size: 32px;
+    }
+
+    .service_quot {
+        padding: 30px;
+    }
+
+    .service_quot::after {
+        display: none;
+    }
+
+    .service_quot p {
+        font-size: 16px;
+    }
+
+    .faq_accordion .accordion-item {
+        padding: 20px;
+    }
+
+    .service_accordion {
+        margin-bottom: 25px;
+    }
+
+    .service_category_img {
+        height: auto;
+    }
+
+
+    .service_item {
+        height: auto;
+    }
+
+    .service_item_overly {
+        height: 45%;
+    }
+
+    .service_item a {
+        font-size: 14px;
+    }
+
+    .service_item_overly h2 {
+        font-size: 18px;
+    }
+
+    /*===============================
+        HOME 2 START
+    ===============================*/
+    .main_menu_2 .menu_right li .menu_order {
+        margin-left: 0;
+    }
+
+    .main_menu_2 .navbar-nav,
+    .main_menu_2 .menu_right {
+        background: var(--lightBg);
+    }
+
+    .banner_2 .banner_img .img {
+        width: auto;
+        height: auto;
+    }
+
+    .add_banner_large_2 .text {
+        width: 90%;
+    }
+
+    .add_banner_medium,
+    .add_banner_small_2,
+    .add_banner_large_2 {
+        padding: 25px;
+    }
+
+    .add_banner_small_2 .text {
+        width: 80%;
+    }
+
+    .add_banner_medium .text {
+        width: 90%;
+    }
+
+    .add_banner_medium .text h3 {
+        font-size: 30px;
+    }
+
+    .add_banner_medium {
+        margin-top: 25px;
+    }
+
+    .app_download_text_2 {
+        margin: 0;
+    }
+
+    .single_chef_2_img {
+        height: auto;
+    }
+
+    .footer_top_contact {
+        padding: 30px;
+    }
+
+    .footer_top_contact ul li {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid rgba(8, 5, 33, 0.10);
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer_2 .footer_info p {
+        max-width: 100%;
+    }
+
+    /*===============================
+        HOME 2 END
+    ===============================*/
+
+
+    /*===============================
+        HOME 3 START
+    ===============================*/
+    .main_menu_3 .menu_right li .menu_order {
+        margin-left: 0;
+    }
+
+    .main_menu_3 .navbar-nav .nav-item .nav-link {
+        color: var(--colorBlack);
+    }
+
+    .main_menu_3 .navbar-nav .nav-item:hover .nav-link,
+    .main_menu_3 .navbar-nav .nav-item .nav-link.active {
+        color: var(--colorPrimary);
+    }
+
+    .main_menu_3 .menu_right li .menu_order:hover {
+        background: var(--colorPrimary);
+    }
+
+    .banner_3 {
+        padding: 0;
+    }
+
+    .banner_3_overlay {
+        padding-top: 220px;
+        padding-bottom: 120px;
+    }
+
+    .reservation_bg {
+        padding: 0;
+    }
+
+    .about_img {
+        max-height: 250px;
+        margin-bottom: 25px;
+    }
+
+    .about_text .about_text_footer .text {
+        width: 70%;
+    }
+
+    .about_text .about_text_footer .signature {
+        margin-top: 30px;
+    }
+
+    .about_text .about_text_footer {
+        margin-bottom: 30px;
+    }
+
+    .testimonial_3_img {
+        width: auto;
+    }
+
+    .testimonial_3_area {
+        padding: 25px;
+    }
+
+    .single_testimonial_3 h2 {
+        font-size: 32px;
+        max-width: 100%;
+    }
+
+    .single_testimonial_3 p {
+        font-size: 16px;
+        line-height: initial;
+    }
+
+    .instagran_photo_item {
+        height: auto;
+    }
+
+    .footer_3_text .footer_3_logo {
+        display: none;
+    }
+
+    .footer_3_text p {
+        margin-bottom: 25px;
+    }
+
+    .sponsor ul li {
+        width: 60px;
+        height: 60px;
+    }
+
+    .sponsor ul {
+        gap: 70px;
+    }
+
+    .popup_subscribe_form {
+        padding: 35px;
+    }
+
+    .popup_subscribe_form h2 {
+        font-size: 22px;
+    }
+
+    .popup_subscribe_box {
+        max-width: 98%;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 12px;
+    }
+
+    .rtl_button {
+        display: none;
+    }
+
+    /*===============================
+        HOME 3 END
+    ===============================*/
+}

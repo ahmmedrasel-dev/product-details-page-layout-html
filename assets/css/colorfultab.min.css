@@ -1,0 +1,133 @@
+.colorful-tab-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    transition: background .3s ease 0s;
+    -webkit-transition: background .3s ease 0s;
+    -moz-transition: background .3s ease 0s;
+    -ms-transition: background .3s ease 0s;
+    -o-transition: background .3s ease 0s;
+}
+
+.colorful-tab-wrapper:before {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    left: 0;
+    top: 0;
+    content: "";
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: scale(2) rotate(10deg);
+    font-size: 50px;
+    font-weight: 900;
+    transition: all .6s ease 0s;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    color: var(--colorPrimary);
+    -webkit-transition: all .6s ease 0s;
+    -moz-transition: all .6s ease 0s;
+    -ms-transition: all .6s ease 0s;
+    -o-transition: all .6s ease 0s;
+    -webkit-transform: scale(2) rotate(10deg);
+    -moz-transform: scale(2) rotate(10deg);
+    -ms-transform: scale(2) rotate(10deg);
+    -o-transform: scale(2) rotate(10deg);
+}
+
+.colorful-tab-wrapper.active:before {
+    content: attr(active-tab);
+    transform: scale(1) rotate(0deg);
+    z-index: 9;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1) rotate(0deg);
+    -moz-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+}
+
+.colorful-tab-content {
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    z-index: 9;
+    font-size: 15px;
+    line-height: 28px;
+    width: 0;
+    letter-spacing: .4px;
+    transform: scale(0.9);
+    transition: all .3s ease-in;
+    filter: blur(2px);
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-filter: blur(2px);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+
+.colorful-tab-content.active {
+    height: auto;
+    transition-delay: .7s;
+    width: auto;
+    opacity: 1;
+    filter: blur(0);
+    visibility: visible;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-filter: blur(0);
+}
+
+.colorful-tab-wrapper.elliptic {
+    border-radius: 10px;
+    padding: 0
+}
+
+.colorful-tab-wrapper.elliptic:before {
+    padding-top: 55px
+}
+
+.colorful-tab-wrapper.elliptic .filter_btn_area {
+    margin: 0
+}
+
+.colorful-tab-wrapper.flatline {
+    padding: 10px 20px 20px 20px
+}
+
+.colorful-tab-wrapper.flatline:before {
+    padding-top: 55px
+}
+
+.colorful-tab-wrapper.flatline .filter_btn_area {
+    background: #f1f1f1;
+    margin-bottom: 15px;
+    box-shadow: 0 -2px 0 rgba(255, 255, 255, 0.2) inset
+}
+
+.colorful-tab-wrapper.flatline li a {
+    transition: box-shadow .3s ease 0s, opacity .3s ease 0s;
+    opacity: .5;
+    -webkit-transition: box-shadow .3s ease 0s, opacity .3s ease 0s;
+    -moz-transition: box-shadow .3s ease 0s, opacity .3s ease 0s;
+    -ms-transition: box-shadow .3s ease 0s, opacity .3s ease 0s;
+    -o-transition: box-shadow .3s ease 0s, opacity .3s ease 0s;
+}
+
+.colorful-tab-wrapper.flatline li.active a {
+    background: none;
+    opacity: 1;
+    box-shadow: 0 -2px 0 #fff inset
+}
