@@ -1,5 +1,9 @@
 # Product Cart Modal Project
 
+## Project Live Link
+
+- Live Link [Product Add To Cart](https://product-add-to-cart-modal.netlify.app/)
+
 ## Description
 
 This project implements a fully dynamic product cart modal using HTML, CSS, and Vanilla JavaScript. Users can add products to the cart, customize them by selecting options such as color, size, and quantity, and view the updated cart data in a modal window. The cart dynamically updates, validates user inputs, and provides a seamless shopping experience.
@@ -78,13 +82,15 @@ project-cart-modal/
 ### `updateCartModal()`
 
 - Populates the modal with current cart items.
-- Shows a placeholder message when the cart is empty.
 - Calculates and displays the total quantity and price.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
+- Bootstrap
+- Fontawome Icon
+- Jquery
 - JavaScript (ES6)
 
 ## Future Enhancements
@@ -94,10 +100,6 @@ project-cart-modal/
 - Integrate with a payment gateway for checkout functionality.
 - Include advanced filtering for product options.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Author
 
-Created by [Your Name](https://github.com/ahmmedrasel-dev).
+Created by [Rasel Ahmmed](https://github.com/ahmmedrasel-dev).
