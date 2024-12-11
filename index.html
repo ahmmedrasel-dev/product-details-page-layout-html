@@ -18,6 +18,82 @@
   </head>
   <body>
     <main>
+      <!-- Cart Modal -->
+
+      <div
+        class="modal fade"
+        id="cartModal"
+        tabindex="-1"
+        aria-labelledby="cartModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <h5 class="modal-title" id="cartModalLabel">Your Cart</h5>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Color</th>
+                    <th>Size</th>
+                    <th>Qnt</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Classy Modern Smart Watch</td>
+                    <td>Black</td>
+                    <td><strong>XL</strong></td>
+                    <td>1</td>
+                    <td>$99.00</td>
+                  </tr>
+                  <tr>
+                    <td>Classy Modern Smart Watch</td>
+                    <td>Purple</td>
+                    <td><strong>L</strong></td>
+                    <td>2</td>
+                    <td>$178.00</td>
+                  </tr>
+                  <tr>
+                    <td>Classy Modern Smart Watch</td>
+                    <td>Cyan</td>
+                    <td><strong>M</strong></td>
+                    <td>1</td>
+                    <td>$79.00</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="3">Total</td>
+                    <td>4</td>
+                    <td>$356.00</td>
+                  </tr>
+                </tfoot>
+              </table>
+
+              <div class="d-flex flex-end">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Continue Shopping
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  id="checkoutButton"
+                >
+                  Checkout
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <section class="py-5">
         <div class="container">
           <div class="row">
@@ -199,6 +275,18 @@
                   ></a>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-12 d-flex justify-content-center">
+              <button
+                class="btn btn-checkout"
+                data-bs-toggle="modal"
+                data-bs-target="#cartModal"
+              >
+                Check Out <span id="total_item" class="count">0</span>
+              </button>
             </div>
           </div>
         </div>

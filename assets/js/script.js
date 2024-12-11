@@ -54,3 +54,43 @@ incrementButton.addEventListener("click", () => {
   quantityInput.value = currentValue + 1;
   updateTotalPrice();
 });
+
+// Add to Cart
+
+let cart = [];
+const total_item = document.getElementById("total_item");
+
+function addToCart() {
+  const name = document.querySelector(".product-title").textContent;
+
+  const selectedColorInput = document.querySelector(
+    'input[name="bandColor"]:checked'
+  );
+  const color = selectedColorInput?.id.replace("color", "");
+  const selectedSizeInput = document.querySelector(
+    'input[name="bandSize"]:checked'
+  );
+  const size = selectedSizeInput?.labels[0].textContent.trim()[0];
+  if (!selectedColorInput || !selectedSizeInput) {
+    alert("Please select both a color and a size.");
+    return;
+  }
+
+  const product_img = colorImages[color.toLowerCase()];
+  const price = parseFloat(selectedSizeInput?.value || "69");
+  const quantity = parseInt(document.querySelector("#quantity").value);
+  const existingItem = cart.find(
+    (item) => item.name === name && item.color === color && item.size === size
+  );
+
+  if (existingItem) {
+    existingItem.quantity += quantity;
+  } else {
+    cart.push({ product_img, name, color, size, price, quantity });
+  }
+  total_item.textContent = cart.length;
+  console.log(cart);
+  alert("Item added to cart!");
+}
+
+document.querySelector(".add-to-cart-btn").addEventListener("click", addToCart);

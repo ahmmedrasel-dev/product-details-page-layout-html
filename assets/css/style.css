@@ -255,3 +255,18 @@ button {
 .heart i {
   font-size: 26px;
 }
+
+.btn-checkout {
+  border-radius: 20px;
+  background: #ffbb5a;
+  padding: 8px 24px;
+  color: var(--blackColor);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-checkout .count {
+  padding: 3px 6px;
+  background-color: var(--whiteColor);
+  border-radius: 5px;
+  margin-left: 10px;
+}
