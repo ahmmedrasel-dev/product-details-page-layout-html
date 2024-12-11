@@ -31,7 +31,9 @@
           <div class="modal-content">
             <div class="modal-body">
               <h5 class="modal-title" id="cartModalLabel">Your Cart</h5>
-              <table class="table">
+
+              <!-- Cart Table -->
+              <table class="table" id="cartTable">
                 <thead>
                   <tr>
                     <th>Item</th>
@@ -41,49 +43,32 @@
                     <th>Price</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
-                    <td>Classy Modern Smart Watch</td>
-                    <td>Black</td>
-                    <td><strong>XL</strong></td>
-                    <td>1</td>
-                    <td>$99.00</td>
-                  </tr>
-                  <tr>
-                    <td>Classy Modern Smart Watch</td>
-                    <td>Purple</td>
-                    <td><strong>L</strong></td>
-                    <td>2</td>
-                    <td>$178.00</td>
-                  </tr>
-                  <tr>
-                    <td>Classy Modern Smart Watch</td>
-                    <td>Cyan</td>
-                    <td><strong>M</strong></td>
-                    <td>1</td>
-                    <td>$79.00</td>
+                <tbody id="cartBody">
+                  <tr id="emptyCartMessage">
+                    <td colspan="5" class="text-center">Your cart is empty.</td>
                   </tr>
                 </tbody>
-                <tfoot>
+                <tfoot id="cartFooter">
                   <tr>
                     <td colspan="3">Total</td>
-                    <td>4</td>
-                    <td>$356.00</td>
+                    <td id="cartTotalQuantity">0</td>
+                    <td id="cartTotalPrice">$0.00</td>
                   </tr>
                 </tfoot>
               </table>
 
-              <div class="d-flex flex-end">
+              <!-- Buttons -->
+              <div class="d-flex justify-content-end gap-4">
                 <button
                   type="button"
-                  class="btn btn-secondary"
+                  class="btn continu-shop-btn"
                   data-bs-dismiss="modal"
                 >
                   Continue Shopping
                 </button>
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  class="btn modal-checkout-btn"
                   id="checkoutButton"
                 >
                   Checkout

@@ -270,3 +270,17 @@ button {
   border-radius: 5px;
   margin-left: 10px;
 }
+
+.modal-checkout-btn {
+  color: var(--whiteColor);
+  border-radius: 3px;
+  padding: 10px 20px;
+  background: #6576ff;
+}
+
+.continu-shop-btn {
+  color: var(--blackColor);
+  border-radius: 3px;
+  padding: 10px 20px;
+  border: 1px solid #dbdfea;
+}

@@ -57,9 +57,49 @@ incrementButton.addEventListener("click", () => {
 
 // Add to Cart
 
-let cart = [];
-const total_item = document.getElementById("total_item");
+function updateCartModal() {
+  const cartBody = document.getElementById("cartBody");
+  const cartFooter = document.getElementById("cartFooter");
+  const emptyCartMessage = document.getElementById("emptyCartMessage");
+  const totalQuantity = document.getElementById("cartTotalQuantity");
+  const totalPrice = document.getElementById("cartTotalPrice");
 
+  // Clear the cart body
+  cartBody.innerHTML = "";
+
+  if (cart.length === 0) {
+    emptyCartMessage.style.display = "table-row";
+    cartFooter.style.display = "none";
+  } else {
+    // Calculate totals
+    let totalQnt = 0;
+    let totalPriceValue = 0;
+
+    // Add items to the cart table
+    cart.forEach((item) => {
+      totalQnt += item.quantity;
+      totalPriceValue += item.quantity * item.price;
+
+      const row = document.createElement("tr");
+      row.innerHTML = `
+          <td><div style="width:50px; display:inline-block"><img src="${
+            item.product_img
+          }" alt="${item.name}" /> </div> ${item.name}</td>
+          <td>${item.color}</td>
+          <td><strong>${item.size}</strong></td>
+          <td>${item.quantity}</td>
+          <td>$${(item.price * item.quantity).toFixed(2)}</td>
+        `;
+      cartBody.appendChild(row);
+    });
+
+    totalQuantity.textContent = totalQnt;
+    totalPrice.textContent = `$${totalPriceValue.toFixed(2)}`;
+  }
+}
+
+let cart = [];
+const total_item_cart = document.getElementById("total_item");
 function addToCart() {
   const name = document.querySelector(".product-title").textContent;
 
@@ -88,9 +128,12 @@ function addToCart() {
   } else {
     cart.push({ product_img, name, color, size, price, quantity });
   }
-  total_item.textContent = cart.length;
+  total_item_cart.textContent = cart.length;
   console.log(cart);
+  updateCartModal();
   alert("Item added to cart!");
 }
 
 document.querySelector(".add-to-cart-btn").addEventListener("click", addToCart);
+
+// document.getElementById("checkoutButton").addEventListener("click");
